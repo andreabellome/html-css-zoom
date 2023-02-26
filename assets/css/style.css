@@ -45,6 +45,10 @@ html{
     color: red;
 }
 
+.relative{
+    position: relative;
+}
+
 .absolute{
     position: absolute;
 }
@@ -56,6 +60,10 @@ html{
 
 .bottom-0{
     bottom: 0px;
+}
+
+.left-0{
+    left: 0px;
 }
 
 .ab-full-orz{
@@ -83,6 +91,10 @@ html{
 
 .p-20{
     padding: 20px;
+}
+
+.p-10{
+    padding: 10px;
 }
 
 .mt-10{
@@ -129,6 +141,10 @@ html{
     flex-direction: column;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .text-center{
     text-align: center;
 }
@@ -136,4 +152,36 @@ html{
 .end-meeting a{
     text-decoration: none;
     color: red;
+}
+
+.card{
+    flex-basis: calc(100%/7 - 1%);
+}
+
+.zoom-lable{
+    background-color: rgb(119, 119, 119);
+}
+
+img{
+    display: block;
+}
+
+.z-index-1{
+    z-index: 1;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
+.h-75{
+    height: 75%;
+}
+
+.w-75{
+    width: 95%;
+}
+
+.position-fixed{
+    position: fixed;
 }
