@@ -33,6 +33,18 @@ html{
     background-color: rgb(68, 68, 68);
 }
 
+.bg-light-gray{
+    background-color: lightgray;
+}
+
+.color-green{
+    color: #4BC800;
+}
+
+.color-red{
+    color: red;
+}
+
 .absolute{
     position: absolute;
 }
@@ -82,7 +94,11 @@ html{
 }
 
 .mr-10{
-    margin-right: 10px;
+    margin-right: 15px;
+}
+
+.ml-10{
+    margin-left: 10px;
 }
 
 .mx{
@@ -97,6 +113,14 @@ html{
     justify-content: space-between;
 }
 
+.justify-cont-around{
+    justify-content: space-around;
+}
+
+.justify-cont-center{
+    justify-content: center;
+}
+
 .align-items-center{
     align-items: center;
 }
@@ -107,4 +131,9 @@ html{
 
 .text-center{
     text-align: center;
+}
+
+.end-meeting a{
+    text-decoration: none;
+    color: red;
 }
