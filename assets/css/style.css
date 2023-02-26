@@ -1,7 +1,82 @@
 /* START: reset */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+.debug{
+    border: 2px dashed black;
+}
 /* END: reset */
+
+.container-100vh{
+    height: 100vh;
+}
+
+.relative{
+    position: relative;
+}
+
+.bg-dark{
+    background-color: rgb(20, 20, 20);
+}
+
+.bg-gray{
+    background-color: rgb(68, 68, 68);
+}
+
+.absolute{
+    position: absolute;
+}
+
+.right-top-20{
+    right: 0px;
+    top: 20px;
+}
+
+.bottom-0{
+    bottom: 0px;
+}
+
+.ab-full-orz{
+    left: 0px;
+    right: 0px;
+}
+
+.margin-right-20{
+    margin-right: 20px;
+}
+
+.lables{
+    background-color: rgb(142, 142, 142);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.lables:first-child{
+    margin-right: 20px;
+}
+
+.lables:first-child i{
+    margin-right: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-cont-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
