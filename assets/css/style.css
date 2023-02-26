@@ -13,7 +13,7 @@ html{
 }
 
 .debug{
-    border: 2px dashed black;
+    border: 2px dashed red;
 }
 /* END: reset */
 
@@ -69,6 +69,26 @@ html{
     margin-right: 10px;
 }
 
+.p-20{
+    padding: 20px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.mx{
+    margin: 0 10px;
+}
+
 .flex{
     display: flex;
 }
@@ -79,4 +99,12 @@ html{
 
 .align-items-center{
     align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
 }
